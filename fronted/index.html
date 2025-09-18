@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Clientes</h1>
+    </header>
+
+    <main>
+        <section id="lista-clientes">
+            <h2>Lista de Clientes</h2>
+            <div id="clientes-container" class="grid-container">
+                </div>
+        </section>
+
+        <section id="agregar-cliente">
+            <h2>Agregar Nuevo Cliente</h2>
+            <form id="form-cliente">
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <button type="submit">Guardar Cliente</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
