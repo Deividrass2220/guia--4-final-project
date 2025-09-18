@@ -14,8 +14,7 @@
     <main>
         <section id="lista-clientes">
             <h2>Lista de Clientes</h2>
-            <div id="clientes-container" class="grid-container">
-                </div>
+            <div id="clientes-container" class="grid-container"></div>
         </section>
 
         <section id="agregar-cliente">
@@ -24,6 +23,63 @@
                 <input type="text" id="nombre" placeholder="Nombre" required>
                 <input type="email" id="email" placeholder="Email" required>
                 <button type="submit">Guardar Cliente</button>
+            </form>
+        </section>
+
+        <section id="lista-pedidos">
+            <h2>Lista de Pedidos</h2>
+            <div id="pedidos-container" class="grid-container"></div>
+        </section>
+
+        <section id="agregar-pedido">
+            <h2>Agregar Nuevo Pedido</h2>
+            <form id="form-pedido">
+                <input type="text" id="descripcion-pedido" placeholder="Descripción" required>
+                <input type="number" id="id-cliente-pedido" placeholder="ID Cliente" required>
+                <input type="date" id="fecha-pedido" required>
+                <button type="submit">Guardar Pedido</button>
+            </form>
+        </section>
+
+        <section id="lista-estados">
+            <h2>Estados de Envío</h2>
+            <div id="estados-container" class="grid-container"></div>
+        </section>
+
+        <section id="agregar-estado">
+            <h2>Agregar Estado de Envío</h2>
+            <form id="form-estado">
+                <input type="text" id="estado-envio" placeholder="Estado" required>
+                <button type="submit">Guardar Estado</button>
+            </form>
+        </section>
+
+        <section id="lista-transportistas">
+            <h2>Lista de Transportistas</h2>
+            <div id="transportistas-container" class="grid-container"></div>
+        </section>
+
+        <section id="agregar-transportista">
+            <h2>Agregar Transportista</h2>
+            <form id="form-transportista">
+                <input type="text" id="nombre-transportista" placeholder="Nombre" required>
+                <input type="text" id="telefono-transportista" placeholder="Teléfono">
+                <button type="submit">Guardar Transportista</button>
+            </form>
+        </section>
+
+        <section id="lista-rutas">
+            <h2>Lista de Rutas</h2>
+            <div id="rutas-container" class="grid-container"></div>
+        </section>
+
+        <section id="agregar-ruta">
+            <h2>Agregar Ruta</h2>
+            <form id="form-ruta">
+                <input type="text" id="origen-ruta" placeholder="Origen" required>
+                <input type="text" id="destino-ruta" placeholder="Destino" required>
+                <input type="number" id="distancia-ruta" placeholder="Distancia (km)" required>
+                <button type="submit">Guardar Ruta</button>
             </form>
         </section>
     </main>
